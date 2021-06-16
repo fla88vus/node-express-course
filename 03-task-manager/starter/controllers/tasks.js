@@ -1,5 +1,5 @@
 const Task = require("../models/Task");
-const asyncWrapper = require("./middleware/async");
+const asyncWrapper = require("../middleware/async");
 
 const getAllTasks = asyncWrapper(async (req, res) => {
   // look mongoose queries documentation CRUD operations
